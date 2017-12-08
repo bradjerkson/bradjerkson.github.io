@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html class="page">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Body Language // BETANARRATIVES</title>
+  <meta name="description" content="Interactive digital narratives" />
+
+  <link rel="canonical" href="http://betanarratives.com/">
+
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+
+
+  
+    
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Reenie+Beanie">
+    
+        <link rel="stylesheet" type="text/css" href="./css/1510-body_language/stylings.css">
+    
+  
+
+  
+  <script src="./js/common/initial.js"></script>
+    
+</head>
+
+<body id="top">
+
+<audio id="bg-music" autoplay loop>
+    <source src="./media/1510-body_language/pieces/audio/soundscape.mp3" type="audio/mpeg">
+    <source src="./media/1510-body_language/pieces/audio/soundscape.ogg" type="audio/ogg">
+
+    <object>
+        <param name="autostart" value="true">
+        <param name="src" value="./media/1510-body_language/pieces/audio/soundscape.mp3">
+        <param name="autoplay" value="true">
+        <param name="controller" value="false">
+        <embed src="./media/1510-body_language/pieces/audio/soundscape.mp3" controller="false" autoplay="true" autostart="true" type="audio/mpeg"></embed>
+    </object>
+</audio>
+<div class="cd-slideshow-wrapper" id="page-body" data-game-js="./js/1510-body_language/modules.js">
+  <ol class="cd-slideshow">
+    <li class="visible" id="game-slide">
+      <div class="cd-slider-content">
+        <div class="content-wrapper">
+          <figure class="game-holder">
+            <div class="game" id="body-language">
+              <div id="body-language-game"></div>
+              <div id="body-language-game--intro" class="game-menu">
+                <h2 id="body-language-game--intro--betanarratives" class="game-title">Betanarratives</h2>
+
+                <h3 id="body-language-game--intro--presents" class="game-title">Presents</h3>
+              </div>
+              <div id="body-language-game--menu" class="game-menu">
+                <h1 id="body-language-game--menu--title" class="game-title">
+                  <img src="./images/1510-body_language/body-language-title.png"/>
+                </h1>
+                <button id="body-language-game--menu--start" class="game-title">
+                  <span><span class="game-begin">Begin</span><small><span>...or press enter</span></small></span>
+                </button>
+                <button id="body-language-game--menu--credits" class="game-title game-title_minor"><span>Credits</span>
+                </button>
+              </div>
+              <div class="game-loader">
+                <div class="game-loader--dots">
+                  <div class="game-loader--dot"></div>
+                  <div class="game-loader--dot"></div>
+                  <div class="game-loader--dot"></div>
+                  <div class="game-loader--dot"></div>
+                  <div class="game-loader--dot"></div>
+                </div>
+
+                <div class="game-loader--content">
+                  <h4 class="game-loader--title">
+                    Loading...
+                  </h4>
+
+                  <p> Please ensure that you are viewing from a laptop/desktop through Chrome or Firefox.
+                  </p>
+                </div>
+
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <filter id="GameLoader-Goo">
+                      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12"/>
+                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"/>
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h2 id="body-language-subtitle" class="game-subtitle"></h2>
+
+            <div class="instructions">
+              <!-- Sorry for all the line breaks! -->
+
+              <p>
+                <img class="instructions_img" src="./images/1510-body_language/controlsblack2.png" style="max-width:400px"/>
+              </p>
+
+              <p> Please ensure that you are viewing from a laptop/desktop through Chrome or Firefox.
+              </p>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </li>
+
+    <li id="page-comic_ears" class="page-comic page-comic_ears">
+      <ol class="sub-slides">
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-01.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-02.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-03.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-04.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-05.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-06.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-07.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-08.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-09.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-10.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-11.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-12.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-13.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <img src="./images/1510-body_language/ear-comic/EarComic-14.png" alt=""/>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <div class="credit-actions">
+                <button class="end-piece btn btn-primary btn-lg">
+                  Return to game
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </li>
+
+    <li id="credits" class="page-comic page-comic_credits" data-auto="true">
+      <ol class="sub-slides">
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Betanarratives Team</h2>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Editor-in-Chief</dt>
+                <dd class="credit-list-section--name">Jessica Yu</dd>
+                <dt class="credit-list-section--title">Deputy Editor</dt>
+                <dd class="credit-list-section--name">Francesca Ohlert</dd>
+                <dt class="credit-list-section--title">Art Director</dt>
+                <dd class="credit-list-section--name">Meg Gough-Brooks</dd>
+                <dt class="credit-list-section--title">Video Director</dt>
+                <dd class="credit-list-section--name">Angeline Armstrong</dd>
+                <dt class="credit-list-section--title">Web Designer &amp; Graphic Designer</dt>
+                <dd class="credit-list-section--name">Mellisa Hankins</dd>
+                <dt class="credit-list-section--title">Web Designer</dt>
+                <dd class="credit-list-section--name">Bradley Jackson</dd>
+                <dt class="credit-list-section--title">Game Designer</dt>
+                <dd class="credit-list-section--name">James Cocciardi</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+        <li data-time="5000">
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Sound Design Team</h2>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Composer</dt>
+                <dd class="credit-list-section--name">Charlie Teitelbaum</dd>
+                <dt class="credit-list-section--title">Sound Designer</dt>
+                <dd class="credit-list-section--name">Dave Williams</dd>
+                <dt class="credit-list-section--title">Additional Sound Design</dt>
+                <dd class="credit-list-section--name">Naomi Pattuwage</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Video - Legs</h2>
+
+              <h3 class="credit-subtitle">Cast</h3>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Surgeon/Butcher</dt>
+                <dd class="credit-list-section--name">Charlie Mycroft</dd>
+                <dt class="credit-list-section--title">Legs Girl</dt>
+                <dd class="credit-list-section--name">India Patterson</dd>
+                <dt class="credit-list-section--title">Legs Man</dt>
+                <dd class="credit-list-section--name">Sean Paisley Collins</dd>
+              </dl>
+              <h3 class="credit-subtitle">Team</h3>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Director</dt>
+                <dd class="credit-list-section--name">Angeline Armstrong</dd>
+                <dt class="credit-list-section--title">Writer</dt>
+                <dd class="credit-list-section--name">Laura Woollett</dd>
+                <dt class="credit-list-section--title">Editor</dt>
+                <dd class="credit-list-section--name">Michael Gibbon</dd>
+                <dt class="credit-list-section--title">Director of Photography</dt>
+                <dd class="credit-list-section--name">Josh Mitchell-Frey</dd>
+              </dl>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">1st AD</dt>
+                <dd class="credit-list-section--name">Annie Pham</dd>
+                <dt class="credit-list-section--title">1st AC</dt>
+                <dd class="credit-list-section--name">Jack Rintoul</dd>
+                <dt class="credit-list-section--title">Sound Recordist</dt>
+                <dd class="credit-list-section--name">Dave Williams</dd>
+                <dt class="credit-list-section--title">Production Design</dt>
+                <dd class="credit-list-section--name">Sarah Pamphlett</dd>
+                <dt class="credit-list-section--title">Make-Up Artist</dt>
+                <dd class="credit-list-section--name">Lana Thomson</dd>
+                <dt class="credit-list-section--title">Composer</dt>
+                <dd class="credit-list-section--name">Charlie Teitelbaum</dd>
+                <dt class="credit-list-section--title">Additional Sound Design</dt>
+                <dd class="credit-list-section--name">Naomi Pattuwage</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Video - Lips</h2>
+
+              <h3 class="credit-subtitle">Cast</h3>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Lips Girl</dt>
+                <dd class="credit-list-section--name">Eleanor Cook</dd>
+              </dl>
+              <h3 class="credit-subtitle">Team</h3>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Director</dt>
+                <dd class="credit-list-section--name">Angeline Armstrong</dd>
+                <dt class="credit-list-section--title">Writer</dt>
+                <dd class="credit-list-section--name">Danielle Binks</dd>
+                <dt class="credit-list-section--title">Editor</dt>
+                <dd class="credit-list-section--name">Michael Gibbon</dd>
+                <dt class="credit-list-section--title">Director of Photography</dt>
+                <dd class="credit-list-section--name">Josh Mitchell-Frey</dd>
+              </dl>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">1st AD</dt>
+                <dd class="credit-list-section--name">Annie Pham</dd>
+                <dt class="credit-list-section--title">1st AC</dt>
+                <dd class="credit-list-section--name">Jack Rintoul</dd>
+                <dt class="credit-list-section--title">Sound Recordist</dt>
+                <dd class="credit-list-section--name">Dave Williams</dd>
+                <dt class="credit-list-section--title">Production Design</dt>
+                <dd class="credit-list-section--name">Sarah Pamphlett</dd>
+                <dt class="credit-list-section--title">Make-Up Artist</dt>
+                <dd class="credit-list-section--name">Lana Thomson</dd>
+                <dt class="credit-list-section--title">Composer</dt>
+                <dd class="credit-list-section--name">Charlie Teitelbaum</dd>
+                <dt class="credit-list-section--title">Additional Sound Design</dt>
+                <dd class="credit-list-section--name">Naomi Pattuwage</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+        <li data-time="5000">
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Comic - Ears</h2>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Writer</dt>
+                <dd class="credit-list-section--name">Melanie Joosten</dd>
+                <dt class="credit-list-section--title">Artist</dt>
+                <dd class="credit-list-section--name">Dave Mahler</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+        <li data-time="5000">
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Animation - Brain</h2>
+              <dl class="credit-list-section">
+                <dt class="credit-list-section--title">Writer</dt>
+                <dd class="credit-list-section--name">Gillian Terzis</dd>
+                <dt class="credit-list-section--title">Animator &amp; Artist</dt>
+                <dd class="credit-list-section--name">Steffie Yee</dd>
+                <dt class="credit-list-section--title">Voice-Over</dt>
+                <dd class="credit-list-section--name">Melissa Elliott</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+        <li data-time="20000">
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <div class="cd-slider--content">
+                <h2 class="credit-title">Story #2: Body Language</h2>
+
+                <p>Betanarratives launched its second piece, Body Language, on the 16th of December at 277 Little Lonsdale St,
+                   Melbourne, 7:00pm. It's the product of sweat, blood, tears and maybe even a little vomit. Come along and
+                   make us feel as if all of the bodily fluid we lost in the making of this piece was worth it!
+                   In the BODY LANGUAGE game, each body part, within this mishmash of Frankenstein's monster-style bricolaged
+                   body parts belonging to different writers, tells of an interactive story (through film, animation, text,
+                   game-play, sound etc).</p>
+                <p>Stories of growing pains and lisps and kissing, stories of entanglement in one's own long legs and
+                   dismemberment and fear, stories of piercings and noise and silence, stories of anxiety and memory and
+                   cognition etc.</p>
+                <p> Featuring new writing by Gillian Terzis, Laura Elizabeth Woollett, Danielle Binks and Melanie Joosten, as
+                    well as comics by Dave Mahler, illustration by Meg Gough Brooks, animation by Steffie Yee, short films by
+                    Angeline Armstrong, music by Charlie Teitelbaum and much much more.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cd-slider-content">
+            <div class="content-wrapper">
+              <h2 class="credit-title">Share</h2>
+
+              <div class="addthis_toolbox addthis_default_style share-us">
+    
+    
+    <a class="addthis_button_twitter share-us--item share-us--item-twitter"></a>
+    
+    
+    
+    <a class="addthis_button_facebook share-us--item share-us--item-facebook"></a>
+    
+    
+    
+    <a class="addthis_button_pinterest share-us--item share-us--item-pinterest"></a>
+    
+    
+    
+    <a class="addthis_button_email share-us--item share-us--item-email"></a>
+    
+    
+    <a class="addthis_button_compact share-us--item share-us--item-more"></a>
+</div>
+
+              <div class="credit-actions">
+                <button class="return-to-game btn btn-primary">
+                  Continue playing
+                </button>
+                <a href="./about" class="btn btn-primary">
+                  About Betanarratives
+                </a>
+              </div>
+
+              <nav class="main-menu menu-alt credits-nav">
+
+    <ul class="main-menu--nav">
+        <li class="main-menu--brand">
+            <a href="./#home" class="page-scroll">
+                <img class="main-menu--brand-logo" src="./images/common/betalogo.png" alt="BETANARRATIVES" />
+            </a>
+        </li>
+
+        <li class="main-menu--nav--social-holder">
+            <ul class="follow-us main-menu--nav--social-menu">
+    
+    
+    <li class="follow-us--item ">
+        <a class="follow-us--item-link" href="https://twitter.com/betanarratives" target="_blank" title="Follow us on Twitter">
+            
+            <i class="fa fa-twitter icon icon-twitter"></i>
+            
+
+                <span class="follow-us--item-label">
+                    Follow us on Twitter
+                </span>
+        </a>
+    </li>
+    
+    
+    
+    <li class="follow-us--item ">
+        <a class="follow-us--item-link" href="https://facebook.com/betanarratives" target="_blank" title="Connect with us on Facebook">
+            
+            <i class="fa fa-facebook icon icon-facebook"></i>
+            
+
+                <span class="follow-us--item-label">
+                    Connect with us on Facebook
+                </span>
+        </a>
+    </li>
+    
+    
+    
+    <li class="follow-us--item ">
+        <a class="follow-us--item-link" href="http://instagram.com/betanarratives" target="_blank" title="Connect with us on Instagram">
+            
+            <i class="fa fa-instagram icon icon-instagram"></i>
+            
+
+                <span class="follow-us--item-label">
+                    Connect with us on Instagram
+                </span>
+        </a>
+    </li>
+    
+    
+    
+    <li class="follow-us--item ">
+        <a class="follow-us--item-link" href="mailto:hello@betanarratives.com" title="Send us an email">
+            
+            <i class="fa fa-send icon icon-send"></i>
+            
+
+                <span class="follow-us--item-label">
+                    Send us an email
+                </span>
+        </a>
+    </li>
+    
+    
+</ul>
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  ">
+            <a href="./about" >
+                
+
+                <span class="main-menu--nav--item-label">
+                    About
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  dropdown">
+            <a href="./stories"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                
+
+                <span class="main-menu--nav--item-label">
+                    Stories
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  ">
+            <a href="./collective" >
+                
+
+                <span class="main-menu--nav--item-label">
+                    Collective
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  ">
+            <a href="./collaborate" >
+                
+
+                <span class="main-menu--nav--item-label">
+                    Collaborate
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  ">
+            <a href="./events" >
+                
+
+                <span class="main-menu--nav--item-label">
+                    Events
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  ">
+            <a href="./learn" >
+                
+
+                <span class="main-menu--nav--item-label">
+                    Learn
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+
+        <li class="main-menu--nav--item  ">
+            <a href="./contact" >
+                
+
+                <span class="main-menu--nav--item-label">
+                    Say Hello
+                </span>
+            </a>
+
+            
+        </li>
+
+        
+    </ul>
+
+</nav>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</div>
+
+<div class="page-video-full">
+  <iframe id="page-video_lips" class="page-video_embed page-video_lips"
+          src="//player.vimeo.com/video/147297299?badge=0&amp;byline=0&amp;color=000000&amp;player_id=page-video_lips&amp;portrait=0&amp;title=0&amp;api=1"
+          width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe id="page-video_brain" class="page-video_embed page-video_brain"
+          src="//player.vimeo.com/video/148114021?badge=0&amp;byline=0&amp;color=000000&amp;player_id=page-video_brain&amp;portrait=0&amp;title=0&amp;api=1"
+          width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe id="page-video_legs" class="page-video_embed page-video_legs"
+          src="//player.vimeo.com/video/147293774?badge=0&amp;byline=0&amp;color=000000&amp;player_id=page-video_legs&amp;portrait=0&amp;title=0&amp;api=1"
+          width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<div class="game-requirements">
+  <h1>Your browser is not supported</h1>
+
+  <p>Please ensure that you are viewing from a laptop/desktop through Chrome or Firefox.</p>
+
+  <p>It is highly recommended to only play this game on a wifi connection</p>
+</div>
+
+
+
+
+<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-569b847940197555"></script>
+
+<script src="./js/1510-body_language/check.js"></script>
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5TXK2F"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                                              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5TXK2F');</script>
+<!-- End Google Tag Manager -->
+</body>
+</html>

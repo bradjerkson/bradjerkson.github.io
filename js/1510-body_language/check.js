@@ -1,0 +1,1 @@
+!function(e){e.touchevents||e.pointerevents?document.body.className+=" game_disabled":document.write('<script src="'+document.getElementById("page-body").getAttribute("data-game-js")+'"></script>')}(window.Modernizr);
